@@ -1,0 +1,114 @@
+/* * {
+    border: 1px solid blue;
+}  */
+
+.flex-grid {
+    display: flex;
+    background-color: #f9fafc;
+    background-size: cover;
+    flex-direction: column;
+    height: 95vh; 
+}
+
+ul {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between; 
+    margin-left: 0%;
+}
+
+li {
+    text-decoration: none;
+    white-space: nowrap;
+    list-style: none;
+    color: #88898B;
+    font-family: 'Open Sans';
+    font-weight: 200;
+}
+
+.chirpus {
+    font-family: 'Open Sans';
+    color: black;
+    font-weight: 400;
+    margin-right: 50%;
+}
+
+h1 {
+    color: #000;
+    font-family: 'Open Sans';
+    font-size: 175%;
+    line-height: 100%;
+    padding: 15% 1.25em 0em;
+}
+
+p {
+    font-family: 'Open Sans';
+    color: #88898B;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 14px;
+    width: 39%;
+    border-left: 1px solid #69696a;
+    margin-top: -.5em;
+    margin-left: 2.5em;
+    padding: 0% 1% ;
+}
+
+button {
+    background-color: #000;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    justify-content: center; /* horizontal centering */
+    align-items: center; /* vertical centering */
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: 300;
+    border-radius: 25px;
+}
+
+.hireus {
+    margin-right: 2em;
+}
+
+.scrolldown { 
+    margin: auto;
+    margin-top: 12%;
+    width: 121px;
+}
+
+.frame-4 {
+    background-color: rgba(207, 130, 213, 0.6);
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    right: 100px;
+    top: 255px;
+    z-index: 2;
+}
+
+.frame-5 {
+    background-color: rgba(247, 193, 162, 0.7);
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    position: absolute;
+    right: 100px;
+    top: 320px;
+    z-index: 3;
+}
+
+.frame-6 {
+    background-color: rgba(247, 136, 167, 0.6);
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    position: absolute;
+    right: 165px;
+    top: 230px;
+    z-index: 1;
+}
+
+
+   
